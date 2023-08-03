@@ -2,6 +2,17 @@
   text-align: center;
 }
 
+body {
+  background-color: #212529;
+  margin: 0; /* Esto es para eliminar los márgenes predeterminados del cuerpo */
+  padding: 0; /* Esto es para eliminar el relleno predeterminado del cuerpo */
+}
+
+h1 {
+  color: #fff;
+  text-align: center 
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;

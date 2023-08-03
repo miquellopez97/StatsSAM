@@ -29,8 +29,8 @@ function TeamRoster({ players, selectedPlayers, onPlayerClick }) {
                 src={player.photo}
                 alt={`Foto de ${player.name}`}
                 style={{
-                    width: '50px',
-                    height: '50px',
+                    width: '100px',
+                    height: '100px',
                     objectFit: 'cover',
                     borderRadius: '50%',
                     border: isSelected(player) ? '2px solid #333' : 'none',
@@ -50,7 +50,6 @@ function TeamRoster({ players, selectedPlayers, onPlayerClick }) {
 
     return (
         <div style={{ width: '50%', margin: 'auto' }}>
-        <h2>Equipo</h2>
         {playerRows}
         </div>
     );
